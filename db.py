@@ -95,7 +95,7 @@ def executer_sql_editeur(sql):
 
     if len(instructions) != 1:
         raise ValueError(
-            "Saisissez une seule requête SQL à la fois."
+            "Saisis une seule requête SQL à la fois."
         )
 
     instruction = instructions[0]
@@ -105,7 +105,7 @@ def executer_sql_editeur(sql):
     if operation not in ("SELECT", "INSERT", "UPDATE"):
         raise ValueError(
             "Commande non autorisée. "
-            "Utilisez uniquement SELECT, INSERT ou UPDATE."
+            "Utilise uniquement SELECT, INSERT ou UPDATE."
         )
 
     sql_nettoye = sqlparse.format(
@@ -118,7 +118,7 @@ def executer_sql_editeur(sql):
         re.IGNORECASE
     ):
         raise ValueError(
-            "Utilisez une requête SQL directe."
+            "Utilise une requête SQL directe."
         )
 
     if operation == "SELECT":
