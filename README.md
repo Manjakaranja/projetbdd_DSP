@@ -1,5 +1,7 @@
 Application Streamlit connectée à la base Neon PostgreSQL du projet BDD.
 
+APP déployé : https://projetbdddspgit-cenolt5yzbiffzjij9vfcy.streamlit.app/ 
+
 ## Prérequis
 - Exécuter le script de création et d'insertion des 7 tables sur NeonDB.
 - Avoir Python 3.10+.
