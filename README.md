@@ -13,7 +13,7 @@ cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 ```
 Remplacer `DATABASE_URL` par l'URL de connexion donnée par Neon (SSL requis).
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ## Mettre en ligne
