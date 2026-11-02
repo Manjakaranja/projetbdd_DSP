@@ -2,7 +2,7 @@
 .streamlit/secrets.toml
 
 # Environnement Python
-.venv/
+venv_bdd/
 __pycache__/
 *.pyc
 

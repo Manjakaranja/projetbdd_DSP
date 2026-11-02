@@ -31,5 +31,6 @@ streamlit run app.py
 - Consulter et créer des demandes de réparation (numéro saisi manuellement).
 - Modifier le statut d'une demande.
 - Afficher les interventions associées à une demande.
+- Exécuter des requêtes SQL de consultation
 
 Note : application de démonstration sans authentification. Utiliser une base de test sans données personnelles réelles. Si déployée en public, toute personne ayant le lien peut modifier les données.
