@@ -1,0 +1,10 @@
+# Secrets NeonDB
+.streamlit/secrets.toml
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fichiers système
+.DS_Store
